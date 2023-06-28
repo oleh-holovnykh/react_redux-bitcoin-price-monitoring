@@ -1,0 +1,29 @@
+.container {
+  margin: auto;
+  margin-top: 40px;
+  width: max-content;
+
+
+  & > :first-child {
+    margin-bottom: 20px;
+  }
+
+  & > *:not(:first-child):not(:last-child)  {
+    margin-bottom: 10px;
+  }
+}
+
+.selects-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+  & > :first-child{
+    margin-bottom: 10px;
+  }
+}
+
+.pagination {
+  width: max-content;
+  margin: auto;
+}
