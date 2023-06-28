@@ -20,11 +20,13 @@ To run the project locally, follow these steps:
 
 1. Download or fork and clone the repository:
 2. Start the proxy server to resolve CORS issues:
-    ```cd bitcoin-price-change-monitoring/proxy
+    ```
+    cd bitcoin-price-change-monitoring/proxy
     npm install
     npm start```
 3. Start the frontend:
-    ```cd bitcoin-price-change-monitoring/front
+    ```
+    cd bitcoin-price-change-monitoring/front
     npm install
     npm start```
 4. The application will automatically open in your browser at http://localhost:3000/. If it doesn't open automatically, you can manually enter this address in your browser's address bar
