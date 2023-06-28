@@ -12,7 +12,7 @@ This project is a monitoring tool for tracking changes in Bitcoin prices using t
 - HTML
 - CSS
 - Bootstrap
-- Fortawesome
+- Fort Awesome
 
 ## Local Setup
 
@@ -23,12 +23,14 @@ To run the project locally, follow these steps:
     ```
     cd bitcoin-price-change-monitoring/proxy
     npm install
-    npm start```
+    npm start
+    ```
 3. Start the frontend:
     ```
     cd bitcoin-price-change-monitoring/front
     npm install
-    npm start```
+    npm start
+    ```
 4. The application will automatically open in your browser at http://localhost:3000/. If it doesn't open automatically, you can manually enter this address in your browser's address bar
 
 Thank you for your attention! Enjoy using the application!
