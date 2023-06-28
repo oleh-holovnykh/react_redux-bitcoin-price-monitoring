@@ -13,7 +13,7 @@ export const getSorted = (
   }
 
   if (sortType === SortField.Time) {
-    sortedData = sortedData.sort((a, b) => +a.id - +b.id);
+    sortedData = sortedData.sort((a, b) => new Date(a.id).getTime() - new Date(b.id).getTime());
   }
 
   if (isReversed) {

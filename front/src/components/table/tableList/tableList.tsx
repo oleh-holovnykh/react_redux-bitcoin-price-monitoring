@@ -7,18 +7,21 @@ interface Props {
 
 export const TableList: React.FC<Props> = ({ displayItems }) => (
   <tbody>
-    {displayItems.map((record) => {
-      const normalizedPrice = `$${record.price.toFixed(2)}`;
-      const key = record.date + record.time;
+    {
+      displayItems.map(({
+        id, date, time, price,
+      }) => {
+        const normalizedPrice = `$${price.toFixed(2)}`;
 
-      return (
-        <TableItem
-          key={key}
-          date={record.date}
-          time={record.time}
-          price={normalizedPrice}
-        />
-      );
-    })}
+        return (
+          <TableItem
+            key={id}
+            date={date}
+            time={time}
+            price={normalizedPrice}
+          />
+        );
+      })
+    }
   </tbody>
 );

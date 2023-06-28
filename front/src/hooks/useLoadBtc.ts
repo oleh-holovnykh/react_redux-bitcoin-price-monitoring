@@ -5,12 +5,9 @@ import { useEffect } from 'react';
 export const useLoadBtc = () => {
   const dispatch = useAppDispatch();
   const { interval } = useAppSelector((state) => state.scan);
-  const { btc } = useAppSelector((state) => state.currency);
 
   const fetchData = () => {
-    if (btc.length === 0) {
-      dispatch(loadBtc());
-    }
+    dispatch(loadBtc());
   };
 
   useEffect(() => {

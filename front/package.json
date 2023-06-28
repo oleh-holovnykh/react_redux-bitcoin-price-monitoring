@@ -46,7 +46,7 @@
     "format": "prettier --write . --igniore-path .gitignore",
     "lint": "eslint . --ignore-path .gitignore --fix",
     "fix-style": "npm run format && npm run lint",
-    "deploy": "cross-env NODE_ENV=production gh-pages -d build"
+    "deploy": "npm run build && cross-env NODE_ENV=production gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
