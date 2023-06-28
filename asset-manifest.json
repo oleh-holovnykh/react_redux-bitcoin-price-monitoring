@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_redux-bitcoin-price-monitoring/static/css/main.c833f1bc.css",
-    "main.js": "/react_redux-bitcoin-price-monitoring/static/js/main.8419b8e9.js",
+    "main.js": "/react_redux-bitcoin-price-monitoring/static/js/main.af952b63.js",
     "static/media/fa-solid-900.ttf": "/react_redux-bitcoin-price-monitoring/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/react_redux-bitcoin-price-monitoring/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/react_redux-bitcoin-price-monitoring/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/react_redux-bitcoin-price-monitoring/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/react_redux-bitcoin-price-monitoring/index.html",
     "main.c833f1bc.css.map": "/react_redux-bitcoin-price-monitoring/static/css/main.c833f1bc.css.map",
-    "main.8419b8e9.js.map": "/react_redux-bitcoin-price-monitoring/static/js/main.8419b8e9.js.map"
+    "main.af952b63.js.map": "/react_redux-bitcoin-price-monitoring/static/js/main.af952b63.js.map"
   },
   "entrypoints": [
     "static/css/main.c833f1bc.css",
-    "static/js/main.8419b8e9.js"
+    "static/js/main.af952b63.js"
   ]
 }
