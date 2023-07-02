@@ -7,12 +7,12 @@ import { SortField } from 'types/SortField';
 import '@fortawesome/fontawesome-free/css/all.css';
 import { getDisplayItems } from 'helpers/getDisplayItemsHelper';
 import Pagination from '@mui/material/Pagination';
-import { CustomSelect } from 'components/select/customSelect';
 import intervalsSelector from 'api/intervals.json';
 import itemsPerPageSelector from 'api/itemsPerPage.json';
-import { CurrencyTable } from 'components/table/currencyTable';
 import { getNumberOfPages } from 'helpers/paginationHelpers';
 import { useLoadBtc } from 'hooks/useLoadBtc';
+import { CustomSelect } from 'components/Select/CustomSelect';
+import { CurrencyTable } from 'components/Table/CurrencyTable';
 import styles from './App.module.scss';
 
 const App: React.FC = () => {

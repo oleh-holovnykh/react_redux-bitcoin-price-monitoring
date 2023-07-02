@@ -1,1 +1,1 @@
-export * from './sortButton';
+export * from './SortButton';

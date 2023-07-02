@@ -1,6 +1,6 @@
 import React from 'react';
 import { SortField } from 'types/SortField';
-import { TableLabel } from '../tableLabel';
+import { TableLabel } from '../TableLabel';
 
 interface Props {
   onSortTypeChange: (sortType: SortField) => void;

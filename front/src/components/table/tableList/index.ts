@@ -1,1 +1,1 @@
-export * from './tableList';
+export * from 'components/Table/TableList/TableList';

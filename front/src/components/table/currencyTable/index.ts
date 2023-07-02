@@ -1,1 +1,1 @@
-export * from './currencyTable';
+export * from 'components/Table/CurrencyTable/CurrencyTable';

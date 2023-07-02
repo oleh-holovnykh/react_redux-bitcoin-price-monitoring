@@ -1,5 +1,5 @@
 import { useAppSelector } from 'app/hooks';
-import { SortButton } from 'components/table/sortButton';
+import { SortButton } from 'components/Table/SortButton';
 import React from 'react';
 import { SortField } from 'types/SortField';
 import styles from './tableLabel.module.scss';

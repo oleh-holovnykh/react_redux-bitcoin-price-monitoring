@@ -1,9 +1,9 @@
 import React from 'react';
 import { SortField } from 'types/SortField';
 import { BtcRecord } from 'types/BtcRecord';
-import { TableHeader } from '../tableHeader';
-import { TableList } from '../tableList';
+import { TableHeader } from 'components/Table/TableHeader';
 import 'bootstrap/dist/css/bootstrap.css';
+import { TableList } from 'components/Table/TableList';
 
 interface Props {
   displayItems: BtcRecord[];

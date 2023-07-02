@@ -1,5 +1,5 @@
 import { BtcRecord } from 'types/BtcRecord';
-import { TableItem } from '../tableItem';
+import { TableItem } from 'components/Table/TableItem';
 
 interface Props {
   displayItems: BtcRecord[];

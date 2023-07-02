@@ -1,5 +1,5 @@
 import { SelectorValue } from 'types/SelectorValue';
-import { SelectOption } from '../selectOption';
+import { SelectOption } from 'components/Select/SelectOption';
 import styles from './сustomSelect.module.scss';
 
 interface Props {

@@ -1,1 +1,1 @@
-export * from './customSelect';
+export * from 'components/Select/CustomSelect/CustomSelect';

@@ -1,1 +1,1 @@
-export * from './tableLabel';
+export * from 'components/Table/TableLabel';
